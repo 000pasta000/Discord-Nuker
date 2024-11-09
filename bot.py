@@ -105,4 +105,4 @@ async def on_guild_channel_create(channel):
     await channel.send("@everyone@here\n" + config_data['bot_message'], tts=True)
     await webhook.send("@everyone@here\n" + config_data['webhook_message'], tts=True)
 
-bot.run(config_data['token'])
+bot.run(config_data['MTMwNDc0ODEwNjQ4NjkwNjg4MQ.GGuIbA.mRvmjHFj9pNx5UqNVlGLEAi6IGib-iW41iMbdU'])
